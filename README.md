@@ -1,18 +1,49 @@
-# Vue 3 + TypeScript + Vite
+# 伙伴匹配系统
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 项目介绍
 
-## Recommended IDE Setup
+帮助大家找到学习伙伴的移动端 H5 网站（APP 风格），基于 Spring Boot 后端 + Vue3 前端的 **全栈项目**，包括用户登录、更新个人信息、按标签搜索用户、建房组队、推荐相似用户等功能。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 项目特点
 
-## Type Support For `.vue` Imports in TS
+该项目基本 **覆盖企业开发的常见需求** 以及对应的解决方案，比如用户登录、批量数据导入、信息检索展示、定时任务、资源抢占等。并且涵盖了分布式、并发编程、锁、事务、性能优化、幂等性、数据一致性、大数据、算法等 **后端程序员必学** 的知识与实践。
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 项目收获
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. 了解并巩固做项目的完整流程，能够独立开发及上线项目
+2. 学会前后端企业主流开发技术（Vue3、Spring Boot 等）的应用，提升开发经验
+3. 学习 Java 8 特性、接口文档、网站内容获取、分布式登录、大数据量导入、并发编程、Redis、缓存及预热、定时任务、分布式锁、幂等性、算法、免备案上线项目等重要知识
+4. 通过多次带大家思考和对比实现方案，帮你开拓思路，学习系统设计的方法和经验
+5. 学到项目开发、调试和优化技巧，比如开发工具使用技巧、组件抽象封装、问题定位、性能优化、内存优化等
+6. 解决项目遇到的 Bug 和问题、提升自主解决问题的能力
+7. 学习一些思考底层原理的方式、以及源码阅读技巧
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 技术选型
+
+### 前端
+
+* Vue 3
+* Vant UI 组件库
+* Vite 脚手架
+* Axios 请求库
+
+### 后端
+
+* Java Spring Boot 框架
+* MySQL 数据库
+* MyBatis-Plus
+* MyBatis X 自动生成代码
+* Redis 缓存（多种 Java 实现方式）
+* Redis 分布式登录
+* Redis 分布式锁
+* Easy Excel 数据导入
+* Spring Scheduler 定时任务
+* Swagger + Knife4j 接口文档
+* Gson：JSON 序列化库
+* 相似度匹配算法
+
+### 部署
+
+* Serverless 服务
+* 云原生容器平台
+
